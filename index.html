@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CanceRX</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+  <script type="text/javascript">
+    $(function() 
+    {
+      $('#datetimepicker1').datetimepicker();
+    });
+  </script>
+  <script>
+    function login() {
+  alert("Hospital/Doctor login: We are testing our MVP and going live soon");
+}
+  </script>
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Why Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Solutions</a></li>
+          <li class="dropdown"><a href="#"><button type="button" class="btn btn-primary" onclick="login()">LOG IN</button> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Doctor Login</a></li>
+              <li><a href="#">Hospital Login</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+     
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Schedule a </span>Demo</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1>Welcome to CanceRX</h1>
+      <a href="#appointment" class="btn-get-started scrollto">Get Started</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 d-flex align-items-stretch">
+            <div class="content">
+              <h3>About CanceRX</h3>
+              <p>
+                CanceRX is born out of partnerships with clinicians, care providers to improve outcomes and prognosis in cancer care, afflicted with sub-optimal prognosis and outcomes in general. We are driven by our mission to improve care at the point of delivery, and help patients at the grassroots level with access to best practices in cancer care.
+We empower health care providers with data driven technology to bridge the gap between diagnosis to treatment, thereby improving outcomes in cancer care.
+<hr>
+Though our current focus is on oncology, our flagship product SUMRIZ and CDS can be used for other specialities as well, thereby helping patients with chronic conditions, globally
+              </p>
+              <div class="text-center">
+                <a href="#services" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img  style="align-items:center;width: 198px;height: 139px;" src="assets/img/About/one.png">
+                    <h4>+ ML + DL</h4>
+                    <p>With AI in our DNA, we are solving challenges in healthcare, starting with cancer care, using technology one by one</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img  style="align-items:center;width: 198px;height: 139px;" src="assets/img/About/two.png">
+                    <h4>Ambient Clinical Intelligence</h4>
+                    <p>Reduce time taken from diagnosis to treatment.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img style="align-items:center;width: 198px;height: 139px;" src="assets/img/About/three.png">
+                    <h4>Enterprise Software</h4>
+                    <p>Right decisions at the right time
+                      </p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img style="align-items:center;width: 198px;height: 139px;" src="assets/img/About/four.png">
+                    <h4>Cloud Based Algorithms</h4>
+                    <p>QRT( quick real time) reporting in a few seconds
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img style="align-items:center;width: 198px;height: 139px;"src="assets/img/About/five.png">
+                    <h4>Intelligent Workflows</h4>
+                    <p>Digitizing with real time intelligence</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <img style="align-items:center;width: 198px;height: 139px;"src="assets/img/About/six.png">
+                    <h4>Digital Transformation</h4>
+                    <p>Deep tech, virtual combinations, data driven insights lead the way</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Doctors Section ======= -->
+    <section id="doctors" class="doctors">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Challenges Addressed</h2>
+        </div>
+
+      </div>
+    </section><!-- End Doctors Section -->
+
+    <!-- ======= Why Us Section ======= -->
+  <section id="why-us" class="why-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 d-flex align-items-wrap">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-xl-6 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="assets/img/problems/jonathan-borba-dJzJkNdp9wc-unspl.jpg">
+                  <div class="member-info">
+                    <h4>90%</h4>
+                    <span>Clinicians are burnt out</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="assets/img/problems/76-764162_arrows-down-low-revenu.png">
+                  <div class="member-info">
+                    <h4>90%</h4>
+                    <span>Hospitals are under financial stress</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img  src="assets/img/problems/ffx1.jpg">
+                  <div class="member-info">
+                    <h4>100%</h4>
+                    <span>Distruption in cancer care spectrum from diagnosis to on going care</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img  src="assets/img/problems/ipad1.jpg">
+                  <div class="member-info">
+                    <h4>70%</h4>
+                    <span>Hospitals not equipped for online experience</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="assets/img/problems/GettyImages-481776876.jpg">
+                  <div class="member-info">
+                    <h4>55%</h4>
+                    <span>Patient switch because of dissatisfaction</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 d-flex align-items-stretch">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <img src="assets/img/problems/image.jpg">
+                  <div class="member-info">
+                    <h4>70%</h4>
+                    <span>Out reach and OPD Management is a challenge</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End .content-->
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Why Us Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Solutions</h2>
+          <p>AI + ML Solutions with With Deep Domain Expertise</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class=""><img src="assets/img/report.png"></div>
+              
+              <h4><a href="">SUMRIZ</a></h4>
+              <hr>
+              <p>Quick Concise summary prior to consultation, for review means more time to see patients.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <div class="icon"><i class="fas fa-pills"></i></div>
+              <h4><a href="">CDS</a></h4>
+              <hr>
+              <p>Recommendations based on patient and disease profile, helping providers with improved Clinical Outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          
+          <p>For best product fit to suit your needs and price plans, write to us on <a href="#">care@cancerx.co.in</a></p>
+          <br>
+          <h2>Schedule a Demo</h2>
+        </div>
+
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+          
+            
+          <div class="form-row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="First Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Last Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-4 form-group">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="">
+            
+            <div class="col-md-4 form-group">
+              <select name="department" id="department" class="form-control">
+                <option value="">Type of Organisation</option>
+                <option value="Department 1">Hospital</option>
+                <option value="Department 2">Clinic</option>
+                <option value="Department 3">Govt</option>
+                <option value="Department 4">Others</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+
+            <div class=" col-md-4 form-group">
+              <div class='input-group date' id='datetimepicker1'>
+                  <input type='text' placeholder = "Date and Time "class="form-control" />
+                  <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-calendar "></span>
+                  </span>
+              </div>
+           </div>
+            
+          </div>
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your demo request has been sent successfully. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Schedule a Demo</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Appointment Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+            <a class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+            <h3>Why Use Us?</h3>
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/wall-clock.png"></div>
+              <h4 class="title"><a href="">369 times faster, round the clock</a></h4>
+              <p class="description">With advanced AI in our DNA, our reporting is 369 times faster than the manual process with a turnaround time of a few seconds, 24x7, 365 days. Yes, you are right, there are no holidays. Our reporting works, all days of the year.</p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/honesty.png"></div>
+              <h4 class="title"><a href="">69% increase in patient retention</a></h4>
+              <p class="description"> Increase in patient retention due to patient trust and satisfaction </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/growth.png"></div>
+              <h4 class="title"><a href="">32% increase in revenue</a></h4>
+              <p class="description">Our round the clock reporting with super fast turn around time reduces load, freeing up your time and ensuring that you are able to see many more patients.
+              </p>
+            </div>
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/copyright.png"></div>
+              <h4 class="title"><a href="">Latest clinical guildelines</a></h4>
+              <p class="description">Clinicians like you help keep us updated with the latest. What's better is that we acknowledge proudly, publicly, that you are the one who helps us.
+              </p>
+            </div>
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/solution.png"></div>
+              <h4 class="title"><a href="">Simple Integration with exisiting work flows</a></h4>
+              <p class="description">We do not need any complex integration or technology upgrades. Simple login with your email id or mobile number is all that is needed for you to use CanceRX.  We work on any PC with the internet. Simple API integrations with your existing work flows are available. </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/crowd.png"></div>
+              <h4 class="title"><a href="">Connecting the Eco-System</a></h4>
+              <p class="description">Virtual, digital interactions help with easy access.Remote care collaboration opportunities help stakeholders across the eco-system
+              </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/why/24-hours.png"></div>
+              <h4 class="title"><a href="">24/7 Avaliablity</a></h4>
+              <p class="description">Ability to add Clinical Notes, Review and Modify. Access your patient records at your convenience,</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/IMG_3137.jpg" class="testimonial-img" alt="">
+                  <h3>Dr Ahmed</h3>
+                  <h4>Doctor</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    We are so grateful to you Manish (CanceRX) for recognising our need and build a solution around it.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/IMG_3140.jpg" class="testimonial-img" alt="">
+                  <h3>Dr R Singh</h3>
+                  <h4></h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    We are using CanceRX solution for the last 2 months. Now I can see more patients. Our Center revenue has also gone up.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Is there a free trial?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p>
+                  We value what we do. Our solutions are minimally priced and we have a minimum of 10 trials at USD 15. For SUMRIZ,/SUMRIZ+CDS please snd us an email and we will initiate a payment request.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">How can I use CanceRX?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                  We are an easy-to-use solution. You can log in, using your email id, phone number, create a profile. Once we approve your profile, you can buy credits and start to use either SUMRIZ or CDS or both.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Can I use CDS and SUMRIZ separately or do I need to buy them together?
+                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+                  You can use SUMRIZ, CDS separately, or both together. The pricing is different for both and the credits that you get will be based on what you shortlist, SUMRIZ, CDS, or SUMRIZ+CDS. 
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Can your solutions integrate with our Hospital Information Systems?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, we have APIs that help integrate with your existing workflows. Else your / hospital doctors can simply signup using your mobile number/email id, buy credits and start using our services. And we will integrate the data that you require into your existing workflows.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed"> How do I pay for your solutions? What payment methods do you accept?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                <p>
+                  We accept all credit cards, international ones too. Else you can wire the monies using our account details. Please write to us to know more.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-6" class="collapsed"> Will you save my credit card information?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-6" class="collapse" data-parent=".faq-list">
+                <p>
+                  We do not save credit card information. If you click the save check box, then your information saves with the payment gateway provider.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-7" class="collapsed">How soon will my credits end?
+                <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-7" class="collapse" data-parent=".faq-list">
+                <p>
+                  Your credits are linked to your usage. Before the end of your credit, we will give you a low credit alert warning.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-8" class="collapsed"> Is there an auto-recharge facility?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-8" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, you can auto-recharge using your credit card.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-9" class="collapsed"> Is there another payment option, if I don't want to use my credit card?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-9" class="collapse" data-parent=".faq-list">
+                <p>
+                  Please ask us for our account details. We accept transfers from within and outside India.
+
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-10" class="collapsed">If the hospital, where I am consulting, is paying for my subscription, can I use my personal email for login.<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-10" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, if your email is in the list of subscribers, provided by your hospital
+
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-11" class="collapsed">What will happen to my patient data if the hospital is paying for my subscription?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-11" class="collapse" data-parent=".faq-list">
+                <p>
+                  The data remains with the payer. However, if your hospital permits, and gives a go-ahead in writing, we can share the details with you.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-12" class="collapsed">Can I change plans?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-12" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, you can change plans by sending us a request, provided you have the requisite credits in your account.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-13" class="collapsed">Can I cancel at my will?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-13" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, our subscriptions are per record +duration-based. Once you opt out, we will not recharge you.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-14" class="collapsed">Will my data be private and safe?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-14" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, we are a HIPAA compliant solution and follow best practices for security.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-15" class="collapsed"> Can I as a Clinician, give suggestions on our own Clinical Guidelines?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-15" class="collapse" data-parent=".faq-list">
+                <p>
+                  Yes, of course. And if published we even give you credits and accolades for the same.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>CanceRX</h3>
+            <p>
+              <strong>Email: </strong>care@cancerx.co.in<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#faq">FAQ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="refund.html">Refund Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="terms.html">Terms of Service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="privacy.html">Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Solutions</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">SUMRIZ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">CDS</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <!--<input type="hidden" name="_next" value="https://www.cancerx.co.in/thanks.html">-->
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright 2021 <strong><span>CanceRX</span></strong>. All Rights Reserved
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://www.facebook.com/CanceRx-293858324739361/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.facebook.com/CanceRx-293858324739361/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/cancerx/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
